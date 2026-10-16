@@ -1,0 +1,15 @@
+# Libraries used across the notebooks (Python 3.10).
+# Code was revised and tested with these versions; the saved outputs come from the original Google Colab run (Python 3.7).
+numpy>=1.23
+pandas>=1.5
+matplotlib>=3.5
+seaborn>=0.11          # histplot
+scikit-learn>=1.0      # get_feature_names_out
+nltk>=3.6
+gensim>=4.0            # Word2Vec(vector_size=...), wv.key_to_index
+imbalanced-learn>=0.9  # SMOTE
+category_encoders>=2.5 # TargetEncoder
+yellowbrick>=1.4       # FreqDistVisualizer, TSNEVisualizer
+langdetect>=1.0.9
+stopwordsiso>=0.6
+jupyter
